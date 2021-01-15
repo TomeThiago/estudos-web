@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cronometro</title>
+  <link rel="stylesheet" href="styles/index.css">
+  <link rel="shortcut icon" href="img/favicon.png">
+</head>
+<body>
+  
+  <div id="wrap">
+    <div id="content">
+      <h1>Cronomêtro</h1>
+
+      <div class="stopwatch">
+        <div class="container-hour">
+          <h2 id="hour">00</h2>
+          <p>horas</p>
+        </div>
+        <div class="container-minute">
+          <h2 id="minute">00</h2>
+          <p>minutos</p>
+        </div>
+        <div class="container-second">
+          <h2 id="second">00</h2>
+          <p>segundos</p>
+        </div>
+      </div>
+      
+      <button onclick="start()" class="bg-green">Iniciar</button>
+      <button onclick="pause()" class="bg-yellow">Pausar</button>
+      <button onclick="stop()" class="bg-red">Parar</button>
+    </div>
+  </div>
+
+  <script src="js/index.js"></script>
+</body>
+</html>
